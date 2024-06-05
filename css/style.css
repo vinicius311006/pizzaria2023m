@@ -15,16 +15,48 @@ body {
     height: 100%;
 }
 
+.carrossel {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.carrossel img {
+    width: 70vw;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.texto h2 {
+    font-size: 35px;
+    color: #b22424;
+    font-weight: 700;
+    text-align: center;
+}
+
+.texto h3 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 2%;
+}
+
 #pagina {
     min-height: 100%;
-    max-height: 100vw;
-    background-color: brown;
+    max-height: 100vw;      
     position: relative;
 }
 
 .principal {
     width: 90vw;
-    background-color: chartreuse;
     margin-left: auto;
     margin-right: auto;
     min-height: 100%;
@@ -57,7 +89,6 @@ header {
 }
 
 .topo {
-    background-color: coral;
     width: 60vw;
 }
 
@@ -70,12 +101,45 @@ header {
     font-size: 18px;
     border-radius: 15px;
     border: none;
-    box-shadow: 2px 2px 4px;
+    box-shadow: 2px 2px 4px black;
 }
 
 .menu {
     background-color: #ffbb00;
-    
+    width: 60vw;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    /*aliamento vertical*/
+    justify-content: center;
+    /*aliamento horizontal*/
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    /* tira a bolinha da lista*/
+    justify-content: space-evenly;
+    width: 60vw;
+}
+
+.menu ul li {
+    color: #b22424;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* Efeito quanto o mouse passar no item da lista*/
+.menu ul li:hover {
+    color: white;
+    transform: scale(1.15);
+
+}
+
+.menu ul a {
+    text-decoration: none;
+    /* Tira o traço de baixo do texto do link*/
+
 }
 
 footer {
