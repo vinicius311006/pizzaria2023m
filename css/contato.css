@@ -57,5 +57,21 @@
 }
 
 .controle-form textarea{
-    
+    resize: none;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.botao button {
+    background-color: #b22424;
+    color: white;
+    width: 30%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
 }
