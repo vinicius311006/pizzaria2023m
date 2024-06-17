@@ -1,0 +1,57 @@
+.conteudo {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.titulo {
+    color: #b22424;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo h3 {
+    margin-top: 1%;
+}
+
+.contato {
+    margin-top: 3%;
+    width: 80%;
+    background-color: rgb(168, 168, 168);
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(161, 161, 159);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(160, 160, 160);
+    margin-bottom: 8%;
+}
+
+.titulo-form {
+    color: #b22424;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.controle-form {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.controle-form label {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.controle-form input {
+    font-size: 16px;
+    border-radius: 10px;
+    width: 98%;
+    display: block;
+    padding: 10px;
+    border: 1px solid rgb(161, 161, 159);
+}
