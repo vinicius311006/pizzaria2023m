@@ -47,11 +47,15 @@
     display: inline-block;
 }
 
-.controle-form input {
+.controle-form input ,textarea {
     font-size: 16px;
     border-radius: 10px;
     width: 98%;
     display: block;
     padding: 10px;
     border: 1px solid rgb(161, 161, 159);
+}
+
+.controle-form textarea{
+    
 }
