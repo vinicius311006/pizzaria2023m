@@ -1,56 +1,55 @@
-.conteudo {
+.conteudo{
     width: 70vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
 }
 
-.titulo {
-    color: #b22424;
+.titulo{
+    color: #B22424;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
 }
-
-.titulo h3 {
+.titulo h3{
     margin-top: 1%;
 }
 
-.contato {
+.contato{
     margin-top: 3%;
     width: 80%;
-    background-color: rgb(168, 168, 168);
+    background-color: rgb(232, 232, 229);
     margin-left: auto;
     margin-right: auto;
     border: 1px solid rgb(161, 161, 159);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px rgb(160, 160, 160);
+    box-shadow: 2px 2px 2px rgb(179, 177, 177);
     margin-bottom: 8%;
 }
 
-.titulo-form {
-    color: #b22424;
+.titulo-form{
+    color: #B22424;
     font-size: 16px;
     text-align: center;
     margin-bottom: 2%;
 }
 
-.controle-form {
+.controle-form{
     margin-bottom: 10px;
     padding-bottom: 20px;
     position: relative;
 }
 
-.controle-form label {
+.controle-form label{
     margin-bottom: 5px;
     display: inline-block;
 }
 
-.controle-form input ,textarea {
-    font-size: 16px;
+.controle-form input, textarea{
+    font-size: 14px;
     border-radius: 10px;
-    width: 98%;
+    width: 100%;
     display: block;
     padding: 10px;
     border: 1px solid rgb(161, 161, 159);
@@ -60,18 +59,19 @@
     resize: none;
 }
 
-.botao {
-    display: flex;
-    justify-content: center;
+.botao{
+   display: flex;
+   justify-content: center;
 }
 
-.botao button {
-    background-color: #b22424;
-    color: white;
+.botao button{
+    background-color: #B22424;
+    color: #fff;
+    font-weight: bold;
     width: 30%;
     padding: 10px;
     border: none;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
-    border-radius: 10px;
 }

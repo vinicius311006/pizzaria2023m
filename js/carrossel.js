@@ -4,7 +4,8 @@ $(document).ready(function(){
         slidesToShow: 1,
         autoplay: true,
         infinite: true,
-        speed: 1500,
-        autoplayspeed: 3000
+        speed: 1500, /*transição*/
+        autoplayspeed: 3000 /*início*/
     });
-  });
+})
+
