@@ -36,20 +36,98 @@
             <th scope="col">Exclusção</th>
           </tr>
         </thead>
-        <section>
-          <div class="container">
-
-          </div>
-        </section>
-        <tbody>
-
-
-        </tbody>
       </table>
+      <section>
+        <div class="container">
+
+          <!-- Modal -->
+          <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Cadastrar Produto</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form id="form" class="row g-1">
+                    <label for="u-nome">Nome do Produto</label>
+                    <input id="u-nome" type="text">
+
+                    <label for="u-descricao">Descrição</label>
+                    <input id="u-descricao" type="text">
+
+                    <label for="u-valor">Valor</label>
+                    <input id="u-valor" type="text">
+
+                    <label for="u-imagem">Imagem</label>
+                    <input id="u-imagem" type="text">
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                  <button type="submit" class="btn btn-success">Salvar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- modal de atualização -->
+        <div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Atualuzar Produto</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form id="upForm" class="row g-1">
+                  <label for="u-nome">Nome do Produto</label>
+                  <input id="u-nome" type="text" required>
+
+                  <label for="u-descricao">Descrição</label>
+                  <input id="u-descricao" type="text" required>
+
+                  <label for="u-valor">Valor</label>
+                  <input id="u-valor" type="text" required>
+
+                  <label for="u-imagem">Imagem</label>
+                  <input id="u-imagem" type="text">
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-warning">Alterar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- modal de exclusão -->
+        <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Excluir Produto</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Tem certeze de que deseja excluir o produto?</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-danger">Deletar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
     </div>
+    </section>
+    <tbody>
+    </tbody>
   </div>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script> <!--Ligação do bootstrap JS-->
